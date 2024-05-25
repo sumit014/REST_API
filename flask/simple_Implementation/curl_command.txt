@@ -1,0 +1,4 @@
+for create -> curl -H "Content-Type: application/json" -X POST http://localhost:5000/courses
+for update -> curl -H "Content-Type: application/json" -X PUT http://localhost:5000/courses/5
+for read ->  curl -H "Content-Type: application/json" -X GET http://localhost:5000/courses/2 (you can get anything by specifying the correct url)
+for delete -> curl -H "Content-Type: application/json" -X DELETE http://localhost:5000/courses/5
